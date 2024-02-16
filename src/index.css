@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(250, 255, 255);
+  margin: 0;
+
+}
+.header {
+  background-color: rgb(185, 202, 202);
+  width: full;
+  margin:0;
+  padding: 40px 0 ;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+input, button {
+  border: none;
+  font-size: 25px;
+  font-family: "Fredoka";
+  
+}
+
+button {
+  background-color: rgb(35, 102, 102);
+  color: white;
+  padding: 0 30px;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Protest Riot";
+}
+
+li { 
+  font-size: 25px;
+}
+
+.to-do-list button {
+  background-color: white;
+  padding: 0 3px;
+  font-size: 15px;
+
+}
+
+
+.list-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;;
+}
